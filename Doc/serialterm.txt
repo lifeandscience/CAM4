@@ -1,0 +1,25 @@
+
+
+    Commandline Serial Terminal - Version 1.1 by A. Schmidt, Oct 2001
+    Lancaster University - http://www.comp.lancs.ac.uk/~albrecht/
+
+
+    serialterm port [speed] [DisplayMode] [Separator] [Echo][logfilename]
+       port ::= com1 | com2 | com3 | com4 | com5 | com6
+       speed::= 300 | 4800 | 9600 | 19200 | 38400 | 57600 | 115200 | 230400
+       DisplayMode::= ascii | hex | decimal
+       Separator::= empty | space | newline | tab
+       Echo::= no | yes
+       logfilename::= <anyname> (if not provided no log is written)
+
+    Usage examples:
+       serialterm com1 115200 hex space no logfile.txt
+       open the terminal on port com1 with 115200 bit/s, print hex code of
+       incoming characters, seperate them by space, no local echo, save
+       output to the file 'logfile.txt'
+
+       serialterm com2 19200 decimal tab yes
+       open the terminal on port com2 with 19200 bit/s, print decimal code
+       of incoming characters, seperate them by tabs, do local echo, no logfile
+
+ 

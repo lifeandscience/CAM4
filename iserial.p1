@@ -1,0 +1,281 @@
+Version 3.2 HI-TECH Software Intermediate Code
+"17 C:\Program Files\HI-TECH Software\PICC\LITE\9.60\include\pic1684.h
+[v _RTCC `Vuc 1 s@1 ]
+"18
+[v _TMR0 `Vuc 1 s@1 ]
+"19
+[v _PCL `Vuc 1 s@2 ]
+"20
+[v _STATUS `Vuc 1 s@3 ]
+"21
+[v _FSR `uc 1 s@4 ]
+"22
+[v _PORTA `Vuc 1 s@5 ]
+"23
+[v _PORTB `Vuc 1 s@6 ]
+"24
+[v _EEDATA `Vuc 1 s@8 ]
+"25
+[v _EEADR `Vuc 1 s@9 ]
+"26
+[v _PCLATH `uc 1 s@10 ]
+"27
+[v _INTCON `Vuc 1 s@11 ]
+"29
+[v _OPTION `Xuc 1 s@129 ]
+"30
+[v _TRISA `VXuc 1 s@133 ]
+"31
+[v _TRISB `VXuc 1 s@134 ]
+"32
+[v _EECON1 `VXuc 1 s@136 ]
+"33
+[v _EECON2 `VXuc 1 s@137 ]
+"36
+[v _RP0 `Vb 1 s@29 ]
+"37
+[v _TO `Vb 1 s@28 ]
+"38
+[v _PD `Vb 1 s@27 ]
+"39
+[v _ZERO `Vb 1 s@26 ]
+"40
+[v _DC `Vb 1 s@25 ]
+"41
+[v _CARRY `Vb 1 s@24 ]
+"44
+[v _RA4 `Vb 1 s@44 ]
+"45
+[v _RA3 `Vb 1 s@43 ]
+"46
+[v _RA2 `Vb 1 s@42 ]
+"47
+[v _RA1 `Vb 1 s@41 ]
+"48
+[v _RA0 `Vb 1 s@40 ]
+"51
+[v _RB7 `Vb 1 s@55 ]
+"52
+[v _RB6 `Vb 1 s@54 ]
+"53
+[v _RB5 `Vb 1 s@53 ]
+"54
+[v _RB4 `Vb 1 s@52 ]
+"55
+[v _RB3 `Vb 1 s@51 ]
+"56
+[v _RB2 `Vb 1 s@50 ]
+"57
+[v _RB1 `Vb 1 s@49 ]
+"58
+[v _RB0 `Vb 1 s@48 ]
+"59
+[v _INT `Vb 1 s@48 ]
+"62
+[v _GIE `Vb 1 s@95 ]
+"63
+[v _EEIE `Vb 1 s@94 ]
+"64
+[v _T0IE `Vb 1 s@93 ]
+"65
+[v _INTE `Vb 1 s@92 ]
+"66
+[v _RBIE `Vb 1 s@91 ]
+"67
+[v _T0IF `Vb 1 s@90 ]
+"68
+[v _INTF `Vb 1 s@89 ]
+"69
+[v _RBIF `Vb 1 s@88 ]
+"72
+[v _RBPU `Xb 1 s@1039 ]
+"73
+[v _INTEDG `Xb 1 s@1038 ]
+"74
+[v _T0CS `Xb 1 s@1037 ]
+"75
+[v _T0SE `Xb 1 s@1036 ]
+"76
+[v _PSA `Xb 1 s@1035 ]
+"77
+[v _PS2 `Xb 1 s@1034 ]
+"78
+[v _PS1 `Xb 1 s@1033 ]
+"79
+[v _PS0 `Xb 1 s@1032 ]
+"82
+[v _TRISA4 `VXb 1 s@1068 ]
+"83
+[v _TRISA3 `VXb 1 s@1067 ]
+"84
+[v _TRISA2 `VXb 1 s@1066 ]
+"85
+[v _TRISA1 `VXb 1 s@1065 ]
+"86
+[v _TRISA0 `VXb 1 s@1064 ]
+"89
+[v _TRISB7 `VXb 1 s@1079 ]
+"90
+[v _TRISB6 `VXb 1 s@1078 ]
+"91
+[v _TRISB5 `VXb 1 s@1077 ]
+"92
+[v _TRISB4 `VXb 1 s@1076 ]
+"93
+[v _TRISB3 `VXb 1 s@1075 ]
+"94
+[v _TRISB2 `VXb 1 s@1074 ]
+"95
+[v _TRISB1 `VXb 1 s@1073 ]
+"96
+[v _TRISB0 `VXb 1 s@1072 ]
+"99
+[v _EEIF `VXb 1 s@1092 ]
+"100
+[v _WRERR `VXb 1 s@1091 ]
+"101
+[v _WREN `VXb 1 s@1090 ]
+"102
+[v _WR `VXb 1 s@1089 ]
+"103
+[v _RD `VXb 1 s@1088 ]
+"6 C:\Program Files\HI-TECH Software\PICC\LITE\9.60\include\conio.h
+[v _ptrdiff_t `i 1 t ]
+"7
+[v _size_t `ui 1 t ]
+"8
+[v _wchar_t `us 1 t ]
+"17 C:\cygwin\home\peterr\PIC\CAM4\camera.h
+[v _msg `uc -> 0 `x e ]
+"18
+[v _stp `uc -> 0 `x e ]
+"39 C:\cygwin\home\peterr\PIC\CAM4\iserial.c
+[v _sendbuffer `uc 1 s ]
+"40
+[v _send_bitno `uc 1 s ]
+"42
+[v _tx_next_bit `b 1 s ]
+"43
+[v _nexttime `b 1 s ]
+"51
+[v _initialize `(v 1 ef ]
+{
+[e :U _initialize ]
+[f ]
+[; ;iserial.c: 49: void
+[; ;iserial.c: 50: initialize(void)
+[; ;iserial.c: 51: {
+[; ;iserial.c: 55: TRISA = 0x10;
+"55
+[e = _TRISA -> -> 16 `i `uc ]
+[; ;iserial.c: 56: TRISB = 0x3F;
+"56
+[e = _TRISB -> -> 63 `i `uc ]
+[; ;iserial.c: 59: RA0 = RA1 = RB6 = 1;
+"59
+[e = _RA0 = _RA1 = _RB6 -> -> 1 `i `b ]
+[; ;iserial.c: 60: RB7 = 0;
+"60
+[e = _RB7 -> -> 0 `i `b ]
+[; ;iserial.c: 63: RBPU = 0;
+"63
+[e = _RBPU -> -> 0 `i `b ]
+[; ;iserial.c: 64: T0CS = 0;
+"64
+[e = _T0CS -> -> 0 `i `b ]
+[; ;iserial.c: 65: TMR0 = (256-(4000000/(8*2400)))+6;
+"65
+[e = _TMR0 -> + - -> -> 256 `i `l / -> 4000000 `l -> * -> 8 `i -> 2400 `i `l -> -> 6 `i `l `uc ]
+[; ;iserial.c: 66: nexttime = 1;
+"66
+[e = _nexttime -> -> 1 `i `b ]
+[; ;iserial.c: 68: T0IE = 1;
+"68
+[e = _T0IE -> -> 1 `i `b ]
+[; ;iserial.c: 69: GIE = 1;
+"69
+[e = _GIE -> -> 1 `i `b ]
+"70
+[; ;iserial.c: 70: }
+[e :UE 1 ]
+}
+"74
+[v _putch `(v 1 ef1`uc ]
+{
+[v _c `uc 1 r1 ]
+[e :U _putch ]
+[f ]
+[; ;iserial.c: 72: void
+[; ;iserial.c: 73: putch(char c)
+[; ;iserial.c: 74: {
+[; ;iserial.c: 75: while(send_bitno)
+"75
+[e $U 3 ]
+[e :U 4 ]
+[; ;iserial.c: 76: continue;
+"76
+[e $U 3 ]
+[e :U 3 ]
+"75
+[e $ != -> _send_bitno `i -> -> -> 0 `i `uc `i 4 ]
+[e :U 5 ]
+[; ;iserial.c: 77: tx_next_bit = 0;
+"77
+[e = _tx_next_bit -> -> 0 `i `b ]
+[; ;iserial.c: 78: sendbuffer = c;
+"78
+[e = _sendbuffer _c ]
+[; ;iserial.c: 79: send_bitno = 13;
+"79
+[e = _send_bitno -> -> 13 `i `uc ]
+"80
+[; ;iserial.c: 80: }
+[e :UE 2 ]
+}
+"92
+[v F171 `(v 1 tf ]
+[v _serial_isr `IF171 1 ef ]
+{
+[e :U _serial_isr ]
+[f ]
+[; ;iserial.c: 90: interrupt void
+[; ;iserial.c: 91: serial_isr(void)
+[; ;iserial.c: 92: {
+[; ;iserial.c: 93: TMR0 = (256-(4000000/(8*2400)))+6;
+"93
+[e = _TMR0 -> + - -> -> 256 `i `l / -> 4000000 `l -> * -> 8 `i -> 2400 `i `l -> -> 6 `i `l `uc ]
+[; ;iserial.c: 96: T0IF = 0;
+"96
+[e = _T0IF -> -> 0 `i `b ]
+[; ;iserial.c: 98: RA2 = !RA2;
+"98
+[e = _RA2 ! _RA2 ]
+[; ;iserial.c: 100: if (nexttime = !nexttime)
+"100
+[e $ ! = _nexttime ! _nexttime 7 ]
+[; ;iserial.c: 101: return;
+"101
+[e $UE 6 ]
+[e :U 7 ]
+[; ;iserial.c: 104: if(send_bitno) {
+"104
+[e $ ! != -> _send_bitno `i -> -> -> 0 `i `uc `i 8 ]
+[; ;iserial.c: 105: RA3 = tx_next_bit;
+"105
+[e = _RA3 _tx_next_bit ]
+[; ;iserial.c: 106: tx_next_bit = sendbuffer & 1;
+"106
+[e = _tx_next_bit -> & -> _sendbuffer `i -> 1 `i `b ]
+[; ;iserial.c: 107: sendbuffer = (sendbuffer >> 1) | 0x80;
+"107
+[e = _sendbuffer -> | >> -> _sendbuffer `i -> 1 `i -> 128 `i `uc ]
+[; ;iserial.c: 108: send_bitno--;
+"108
+[e -- _send_bitno -> -> 1 `i `uc ]
+"109
+[e :U 8 ]
+"110
+[; ;iserial.c: 109: }
+[; ;iserial.c: 110: }
+[e :UE 6 ]
+}
